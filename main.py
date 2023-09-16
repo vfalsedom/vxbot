@@ -5,8 +5,8 @@ import random
 import requests
 import json
 
-API_KEY = "o42yiOBVeEeEAtwtqcmaN65V"
-SECRET_KEY = "nSTspYhGwWrx6AFcQPfVrq4GPXsgFlhl"
+API_KEY = " "
+SECRET_KEY = " "
 
 # 绑定微信主界面
 wx = WindowControl(Name='微信')
