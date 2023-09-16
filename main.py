@@ -107,7 +107,7 @@ def get_access_token():
     使用 API Key，Secret Key 获取access_token，替换下列示例中的应用API Key、应用Secret Key
     """
 
-    url = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=o42yiOBVeEeEAtwtqcmaN65V&client_secret=nSTspYhGwWrx6AFcQPfVrq4GPXsgFlhl"
+    url = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=[API Key]&client_secret=[Secret Key]"
 
     payload = json.dumps("")
     headers = {
